@@ -5,8 +5,8 @@
 ```
 Scenario: Unsuccessful Login
 Given I am on the Google login page
-When I attempt to login with invalid credentials
-Then I should see an error message "Incorrect username or password"
+When I attempt to login with invalid password
+Then I should see an error message "Неправильний пароль. Повторіть спробу або натисніть "Забули пароль?", щоб скинути його."
 ```
 
 ```
