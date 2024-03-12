@@ -3,7 +3,7 @@ import {allure} from "allure-playwright";
 import {ContentType} from "allure-js-commons";
 
 export function step(message: string) {
-    return function actualDecorator(originalMethod: Function) {
+    return function actualDecorator(originalMethod: Function, context: ClassMethodDecoratorContext) {
         return function replacementMethod(this: any, ...args: any) {
             return test.step(message, async () => {
                     if (args.length) {

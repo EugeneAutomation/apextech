@@ -2,8 +2,8 @@ import {BasePage} from "./basePage";
 import {expect, Page} from "@playwright/test";
 import {step} from "./helpers/allure.helper";
 
-const Login = "evgeniy.kizimenko@gmail.com";
-const Password = "Ke22021992";
+const Login = "test";
+const Password = "test";
 
 export class LoginPage extends BasePage {
     readonly page: Page;

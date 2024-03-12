@@ -20,3 +20,4 @@ To run only API autotests - run command:
 npm run api
 ```
 
+## All Test Scenarios - in TestScenarios.md
