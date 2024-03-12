@@ -11,13 +11,15 @@ npm ci
 To run only LOGIN autotests - run command:
 
 ```
-npm run login
+1. On loginPage.ts update const Login / const Password to your email and password
+
+2. npm run login in Terminal
 ```
 
 To run only API autotests - run command:
 
 ```
-npm run api
+npm run api in Terminal
 ```
 
 ## All Test Scenarios - in TestScenarios.md
