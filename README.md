@@ -11,7 +11,7 @@ npm ci
 To run only LOGIN autotests - run command:
 
 ```
-1. On loginPage.ts update const Login / const Password to your email and password
+1. On loginPage.ts update const Login / const Password to your real email and password
 
 2. npm run login in Terminal
 ```

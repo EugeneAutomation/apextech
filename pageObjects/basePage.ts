@@ -6,12 +6,12 @@ export class BasePage {
     constructor(page: Page) {
         this.page = page;
     }
-    @step('Open Google')
-    async openGoogle() {
+    @step('Open page')
+    async openPage(url, title) {
         // open "google.com"
-        await this.page.goto('https://google.com');
+        await this.page.goto(url);
         // check that "google.com" opened
-        await expect(this.page).toHaveTitle(/Google/);
+        await expect(this.page).toHaveTitle(title);
     }
     @step('Set Value')
     async setValue(element: Locator, value: string) {
